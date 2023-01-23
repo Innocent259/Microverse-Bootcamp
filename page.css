@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: auto;
+}
+.menu-lists {
+    list-style: none;
+    
+}
+.top-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 0;
+    gap: 1rem;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 20px;
+    padding-left: 30px;
+}
